@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+
+/* Passle Feed Widget In Front-End
+-------------------------------------------------------------- */
+
+div.pf-widget-inner-content ul.latest-posts-list
+{
+	list-style-type: none;
+}
+
+div.pf-widget-inner-content ul.latest-posts-list li
+{
+	margin: 0px 0px 10px 0px !important;
+	padding: 0px 0px 0px 0px !important;
+}
+
+div.pf-widget-inner-content ul.latest-posts-list li:last-child
+{
+	margin: 0px !important;
+}
+
+div.pf-widget-inner-content ul.latest-posts-list li div.post-featured-image-thumbnail-container
+{
+	float: left;
+	width: 80px;
+	
+	margin: 0px 5px 0px 0px;
+}
+
+div.pf-widget-inner-content ul.latest-posts-list li div.post-featured-image-thumbnail-container img
+{
+	display: block;
+	
+	width: 80px !important;
+	height: 80px !important;
+}
+
+div.pf-widget-inner-content ul.latest-posts-list li div.post-info-container
+{
+	position: relative;
+	
+	top: -4px;
+	
+	line-height: normal;
+	
+	margin: 0px 0px 0px 90px;
+	
+	min-height: 84px;
+}
+
+div.pf-widget-inner-content ul.latest-posts-list li div.post-info-container.post-info-container-without-post-featured-image-thumbnail-container-on-the-left
+{
+	margin: 0px 0px 0px 0px;
+	
+	min-height: 0px;
+}
+
+div.pf-widget-inner-content ul.latest-posts-list li div.clear
+{
+	clear: both;
+	
+	font-size: 1px;
+	height: 20px;
+	line-height: 1px;
+}
+
+div.pf-widget-inner-content ul.latest-posts-list li div.break
+{
+	font-size: 1px;
+	height: 5px;
+	line-height: 1px;
+}
+
+div.pf-widget-inner-content ul.latest-posts-list li a.title
+{
+	color: inherit;
+}
+
+/* End - Passle Feed Widget In Front-End
+-------------------------------------------------------------- */

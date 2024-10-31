@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+/* Passle Feed Widget In Back-End
+-------------------------------------------------------------- */
+
+div.pf-widget-form-inner-wrapper div.pf-widget-form-row
+{
+	margin: 0px 0px 10px 0px;
+}
+
+div.pf-widget-form-inner-wrapper div.pf-widget-form-row div.pf-widget-form-row-cell-with-label
+{
+	margin: 0px 0px 5px 0px;
+}
+
+div.pf-widget-form-inner-wrapper div.pf-widget-form-row div.pf-widget-form-row-cell-with-input
+{
+	width: 100%;
+}
+
+div.pf-widget-form-inner-wrapper div.pf-widget-form-row div.pf-widget-form-row-cell-with-input input
+,
+div.pf-widget-form-inner-wrapper div.pf-widget-form-row div.pf-widget-form-row-cell-with-input textarea
+{
+	width: 100%;
+}
+
+/* End - Passle Feed Widget In Back-End
+-------------------------------------------------------------- */
